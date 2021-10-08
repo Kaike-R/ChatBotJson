@@ -1,0 +1,878 @@
+{
+  "intents": [
+    {
+      "intent": "bolsa",
+      "examples": [
+        {
+          "text": "a fei aceita CAPES"
+        },
+        {
+          "text": "a fei aceita CNPq?"
+        },
+        {
+          "text": "a fei aceita FAPESP?"
+        },
+        {
+          "text": "a fei possui bolsas?"
+        },
+        {
+          "text": "A fei possui bolsas de estudo para doutorado"
+        },
+        {
+          "text": "A fei possui bolsas de estudo para mestrado"
+        },
+        {
+          "text": "bolsa de estudos"
+        },
+        {
+          "text": "como funciona as bolsas"
+        },
+        {
+          "text": "quais parcerias a fei aceita"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "CEQuempodeparticipar",
+      "examples": [
+        {
+          "text": "como fazer para participar"
+        },
+        {
+          "text": "participar"
+        },
+        {
+          "text": "Quem pode participar?"
+        },
+        {
+          "text": "quero participar"
+        },
+        {
+          "text": "requisitos para participar"
+        }
+      ],
+      "description": "Quem pode participar?"
+    },
+    {
+      "intent": "ComeçoAulas",
+      "examples": [
+        {
+          "text": "aulas"
+        },
+        {
+          "text": "quando começa as aulas"
+        },
+        {
+          "text": "quando vai ser as aulas"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Comoéfeitaaconcessãodocrédito",
+      "examples": [
+        {
+          "text": "Como é feita a concessão do credito ?"
+        },
+        {
+          "text": "o que eu terei que fazer para fazer o credito"
+        },
+        {
+          "text": "terei que assinar alguma coisa"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "comoserapago",
+      "examples": [
+        {
+          "text": "e como sera pago"
+        },
+        {
+          "text": "na hora de pagar como faz"
+        },
+        {
+          "text": "pagar"
+        },
+        {
+          "text": "quando precisarei pagar"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Comosolicitar",
+      "examples": [
+        {
+          "text": "como credito"
+        },
+        {
+          "text": "como eu participo do credito"
+        },
+        {
+          "text": "como eu solicito o credito"
+        },
+        {
+          "text": "como fazer o credito"
+        }
+      ],
+      "description": "como solicito o credito"
+    },
+    {
+      "intent": "creditoeducativo",
+      "examples": [
+        {
+          "text": "como funciona o credito da fei"
+        },
+        {
+          "text": "credito educacional pela instituição"
+        },
+        {
+          "text": "credito educatio"
+        },
+        {
+          "text": "e fei disponibiliza credito"
+        },
+        {
+          "text": "existe credito educativo"
+        },
+        {
+          "text": "o que é credito estudantil"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Divulgação",
+      "examples": [
+        {
+          "text": "dIVULGAÇÃO"
+        },
+        {
+          "text": "quando saiu a divulgação"
+        },
+        {
+          "text": "quando vai sair a divulgação"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Documentos",
+      "examples": [
+        {
+          "text": "doc"
+        },
+        {
+          "text": "documentos"
+        },
+        {
+          "text": "precisa levar documentos"
+        },
+        {
+          "text": "quais os documentos exigidos"
+        },
+        {
+          "text": "quais os documentos que eu preciso levar para a matricula"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Entrevista",
+      "examples": [
+        {
+          "text": "entrevista"
+        },
+        {
+          "text": "quando foi a entrevista"
+        },
+        {
+          "text": "quando vai ser a entrevista"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "EquantoàrenovaçãodoCRÉDITOEDUCATIVO",
+      "examples": [
+        {
+          "text": "como eu renovo o credito"
+        },
+        {
+          "text": "e necessaria a renovação"
+        },
+        {
+          "text": "renovação credito"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Inscrição",
+      "examples": [
+        {
+          "text": "inscrição"
+        },
+        {
+          "text": "quando foi a inscrição"
+        },
+        {
+          "text": "quando vai ser a inscrição"
+        },
+        {
+          "text": "quero fazer a inscrição"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Matricula",
+      "examples": [
+        {
+          "text": "matricula"
+        },
+        {
+          "text": "qual os dias da matricula"
+        },
+        {
+          "text": "quando vai ser a matricula"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "mensalidade",
+      "examples": [
+        {
+          "text": "gostaria de saber qual e a mensalidade"
+        },
+        {
+          "text": "qual a mensalidade do mestrado"
+        },
+        {
+          "text": "qual o valor do mestrado"
+        },
+        {
+          "text": "quanto custa"
+        },
+        {
+          "text": "quanto custa o mestrado"
+        },
+        {
+          "text": "quanto e a mensalidade"
+        },
+        {
+          "text": "valor"
+        }
+      ],
+      "description": "int"
+    },
+    {
+      "intent": "OCRÉDITOEDUCATIVOexigegarantias",
+      "examples": [
+        {
+          "text": "o credito estudantil exige garantias"
+        },
+        {
+          "text": "preciso de garantias"
+        },
+        {
+          "text": "quais as garantias"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "ProcessoSeletivo",
+      "examples": [
+        {
+          "text": "queria informações sobre o processo seletivo"
+        },
+        {
+          "text": "queria saber do processo seletivo"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Qualopercentualdecrédito",
+      "examples": [
+        {
+          "text": "credito"
+        },
+        {
+          "text": "qual a proposta do programa de credito"
+        },
+        {
+          "text": "quanto de credito uma pessoa pode ter"
+        },
+        {
+          "text": "quero saber a porcentagem do programa de credito"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "QualoprazodeutilizaçãodoCRÉDITOEDUCATIVO",
+      "examples": [
+        {
+          "text": "qual o periode que o credito e valido"
+        },
+        {
+          "text": "qual o prazo"
+        },
+        {
+          "text": "quanto do curso poderei por no credito"
+        },
+        {
+          "text": "quero saber o tempo de vigor do credito"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "transferenciaoutrancamento",
+      "examples": [
+        {
+          "text": "e se eu trancar"
+        },
+        {
+          "text": "e se eu transferir"
+        },
+        {
+          "text": "o que acontece quando eu tranco a faculdade"
+        },
+        {
+          "text": "o que acontece quando eu transfiro de faculdade"
+        },
+        {
+          "text": "trancar"
+        },
+        {
+          "text": "transferir"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "Graduação",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Mestrado",
+          "synonyms": [
+            "mestre"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-currency",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-percentage",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-time",
+      "values": [],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá. Como posso te ajudar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu não entendi. Você pode tentar reformular a frase."
+              },
+              {
+                "text": "Você pode reformular sua afirmação? Eu não estou entendendo."
+              },
+              {
+                "text": "Eu não entendi o sentido."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_1_1633494416580",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A FEI possui um programa de bolsas do CAPES e para estar apto a usufruir desse beneficio integralmente a FEI exige 40 horas semanais de disponibilidade e ausência de vínculos empregatício e para beneficio parcial a FEI exige disponibilidade de 20 horas semanais mas nessa relação não iremos exigir a ausência de vínculos empregatício\n\nA FEI Também aceita parcerias da FAPESP e da CNPq mas nesses casos o aluno deve ir atrás por conta acesse os sites dessas instituições para mais detalhes"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1633494656663",
+      "conditions": "#bolsa",
+      "dialog_node": "node_10_1633491753090"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No primeiro mês após a conclusão do curso, o estudante beneficiado inicia o reembolso dos valores emprestados.\n\nA partir desta data, o valor componente da dívida do(a) MUTUÁRIO(A), contraída por força de contrato, será atualizado pelos índices acumulados do INPC - Índice Nacional de Preços ao Consumidor ou, na falta deste, pelo índice e/ou taxa com critérios legais vigentes na época da liquidação (pagamento), até o mês de reembolso de cada parcela.\n\nSobre o valor de cada parcela de reembolso, será acrescido o percentual de 0,5% (zero cinco por cento) ao mês, cumulativamente, calculado entre a data do contrato e a data do efetivo pagamento da parcela, destinado ao fundo de administração do Crédito Educativo."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1633494416580",
+      "conditions": "#comoserapago",
+      "dialog_node": "node_10_1633494146774",
+      "previous_sibling": "node_5_1633494303632"
+    },
+    {
+      "type": "folder",
+      "title": "credito estudantil",
+      "dialog_node": "node_1_1633494416580",
+      "previous_sibling": "node_8_1633494656663"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "As inscrições do processo seletivo já foram encerradas e estamos atualmente e as aulas foram iniciadas dia 04/10/2021"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1633633174523",
+      "conditions": "#ProcessoSeletivo",
+      "dialog_node": "node_1_1633648601013"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "As entrevistas se enceraram e foi de 08/09/2021 a 21/09/2021"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1633633174523",
+      "conditions": "#Entrevista",
+      "dialog_node": "node_1_1633648837999",
+      "previous_sibling": "node_5_1633648799738"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "a divulgação foi feita dia 23/09/2021"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1633633174523",
+      "conditions": "#Divulgação",
+      "dialog_node": "node_1_1633648909736",
+      "previous_sibling": "node_1_1633648837999"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sim e necessario levar documentos e são\n\n-Duas cartas de recomendação (doc)\n-Cópia do diploma do Curso Superior devidamente registrado ou equivalente\n-Cópia do Histórico Escolar do Curso Superior\n-Cópia do RG - não é aceita a CNH\n-Cópia do CPF ou apresentar o Comprovante de Inscrição (Acesse o site da Receita Federal)\n-Cópia da Certidão de Nascimento ou Casamento\n-Cópia do comprovante de residência\n-Curriculum Vitae atualizado\n-Uma foto recente."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1633633174523",
+      "conditions": "#Documentos",
+      "dialog_node": "node_1_1633649214455",
+      "previous_sibling": "node_9_1633649145911"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ola voce entrou no menu de Credito Educativo\n\nO CRÉDITO EDUCATIVO é ofertado pelo Centro Universitário da FEI para viabilizar o estudo dos cursos de Pós-graduação, postergando 50% dos pagamentos das mensalidades para depois da conclusão do curso, sem juros remuneratórios, uma vez que é crédito e não financiamento.\n\nO número de vagas destinadas a candidatos do CRÉDITO EDUCATIVO é variável, de acordo com critérios próprios da FEI, avaliados semestralmente."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "para mais informações acesse www.credies.org"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1633494416580",
+      "conditions": "#creditoeducativo",
+      "dialog_node": "node_2_1633493014693"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A matricula foi dia 27/09/2021 e 28/09/2021"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1633633174523",
+      "conditions": "#Matricula",
+      "dialog_node": "node_2_1633649053354",
+      "previous_sibling": "node_1_1633648909736"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O valor do crédito corresponde a 50% do custo das parcelas da semestralidade, desde a matrícula, fixado pela FEI de acordo com o curso de Pós-graduação em que o aluno estiver matriculado."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1633494416580",
+      "conditions": "#Qualopercentualdecrédito",
+      "dialog_node": "node_3_1633493384301",
+      "previous_sibling": "node_2_1633493014693"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sim. Para participar, o estudante deve possuir idoneidade cadastral e apresentar fiador com idoneidade cadastral com renda de 1,5 vezes o valor da mensalidade integral, respeitando o valor mínimo de 2 (dois) salários mínimos de vigência nacional.\nÉ necessário um fiador que pode ser qualquer pessoa maior de 18 anos, exceto cônjuge, desde que atenda aos requisitos de regulamento."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1633494416580",
+      "conditions": "#OCRÉDITOEDUCATIVOexigegarantias",
+      "dialog_node": "node_5_1633494270469",
+      "previous_sibling": "node_6_1633494458440"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A cada início de semestre, o aluno manifesta o seu interesse na renovação do crédito que deve ser deferido pela IES.\nO estudante pode solicitar encerramento do crédito ou mesmo redução do percentual, quanto a renovação do seu crédito"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1633494416580",
+      "conditions": "#EquantoàrenovaçãodoCRÉDITOEDUCATIVO",
+      "dialog_node": "node_5_1633494303632",
+      "previous_sibling": "node_8_1633494210347"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A inscrição se encerrou e foi de 01/06/2021 a 17/09/2021"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1633633174523",
+      "conditions": "#Inscrição",
+      "dialog_node": "node_5_1633648799738",
+      "previous_sibling": "node_1_1633648601013"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A solicitação do CRÉDITO EDUCATIVO é feita totalmente on-line, no Portal Fundacred: www.credies.org.\n\nO CredIES FEI está disponível para cursos de graduação e pós-graduação na modalidade presencial."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1633494416580",
+      "conditions": "#Comosolicitar",
+      "dialog_node": "node_6_1633494236748",
+      "previous_sibling": "node_5_1633494270469"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O tempo regular do curso."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1633494416580",
+      "conditions": "#QualoprazodeutilizaçãodoCRÉDITOEDUCATIVO",
+      "dialog_node": "node_6_1633494458440",
+      "previous_sibling": "node_3_1633493384301"
+    },
+    {
+      "type": "folder",
+      "title": "Processo Seletivo",
+      "conditions": "",
+      "dialog_node": "node_6_1633633174523",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A mensalidade esta no valor atual de 2.265,00 ao mes"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1633494656663",
+      "conditions": "#mensalidade",
+      "dialog_node": "node_7_1633491403449",
+      "previous_sibling": "node_10_1633491753090"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Estudantes universitários, regularmente matriculados nos cursos de pós-graduação, excluídos aqueles já beneficiados integralmente por outro Programa de Bolsa de Estudos. Todos os candidatos devem possuir bom desempenho acadêmico.\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1633494416580",
+      "conditions": "#CEQuempodeparticipar",
+      "dialog_node": "node_8_1633493049819",
+      "previous_sibling": "node_9_1633494372928"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A concessão do crédito educativo é feita mediante a celebração, entre a FUNDACRED e o aluno da FEI, de um Contrato Particular de Mútuo, que estabelece prazo, garantia, forma de pagamento, atualização e penalidades idênticos, no que couber, àqueles estabelecidos no Contrato de Prestação de Serviço Educacional celebrado entre a FEI (Escola) e o aluno.\n\nA FUNDACRED figura como mandatária da FEI (Escola), cabendo a esta a elaboração do instrumento, que, após conferido, assinado e aceito, suspende a cobrança das parcelas da semestralidade, em parte, dependendo do percentual concedido."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1633494416580",
+      "conditions": "#Comoéfeitaaconcessãodocrédito",
+      "dialog_node": "node_8_1633494210347",
+      "previous_sibling": "node_6_1633494236748"
+    },
+    {
+      "type": "folder",
+      "title": "mensalidades e bolsas",
+      "dialog_node": "node_8_1633494656663",
+      "previous_sibling": "node_6_1633633174523"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Se o aluno trancar a matrícula por mais de um semestre, pedir transferência ou abandonar o curso, a restituição do crédito começará imediatamente. Na restituição os valores das mensalidades serão devidamente atualizados conforme o INPC e considerando também o preço da mensalidade em vigor."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1633494416580",
+      "conditions": "#transferenciaoutrancamento",
+      "dialog_node": "node_9_1633494372928",
+      "previous_sibling": "node_10_1633494146774"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "As aulas vão começar dia 04/10/2021"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1633633174523",
+      "conditions": "#ComeçoAulas",
+      "dialog_node": "node_9_1633649145911",
+      "previous_sibling": "node_2_1633649053354"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nenhuma das anteriores"
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "chat",
+  "language": "pt-br",
+  "description": ""
+}
